@@ -1,7 +1,7 @@
 clouds:
   devstack:
     auth:
-      auth_url: http://172.16.5.189/
+      auth_url: http://172.16.5.189/identity/
       project_name: project1
       username: admin
       password: secret
