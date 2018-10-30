@@ -1,0 +1,12 @@
+---
+  - hosts: stack
+    remote_user: root
+    tasks:
+    - os_project:
+      cloud: devstack
+      endpoint_type: admin
+      state: present
+      name: project1
+      description: ExampleProject
+      domain_id: demoid
+      enabled: True

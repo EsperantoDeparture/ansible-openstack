@@ -1,0 +1,12 @@
+---
+  - hosts: stack
+    remote_user: root
+    tasks:
+    - os_user:
+      cloud: mycloud
+      state: present
+      name: user1
+      password: secret
+      email: demo@example.com
+#      domain: default
+      default_project: project1
